@@ -1,7 +1,7 @@
 # Cricket Player Injury Risk Prediction System
 
 A Machine Learning-based web application that predicts injury risk levels for cricket players using Random Forest algorithm.
-The system analyzes training workload, fatigue level, sleep, fitness score, and injury history — and provides real-time injury risk prediction with confidence score, probability chart, and personalized recommendations.
+The system analyzes training workload, fatigue level, sleep, fitness score, and injury history and provides real-time injury risk prediction with confidence score, probability chart, and personalized recommendations.
 
 ## 🎯 Key Features
 <img width="691" height="257" alt="image" src="https://github.com/user-attachments/assets/373679e4-3aa1-4dfb-bba5-1293e8da90fa" />
