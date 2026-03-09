@@ -1,19 +1,102 @@
-# Cricket Player Injury Risk Prediction System
+# 🏏 Cricket Player Injury Risk Prediction System
 
-A Machine Learning-based web application that predicts injury risk levels for cricket players using Random Forest algorithm.
-The system analyzes training workload, fatigue level, sleep, fitness score, and injury history and provides real-time injury risk prediction with confidence score, probability chart, and personalized recommendations.
+A **Machine Learning-based web application** that predicts injury risk levels for cricket players using the **Random Forest algorithm**.
 
-## Key Features
-<img width="691" height="257" alt="image" src="https://github.com/user-attachments/assets/373679e4-3aa1-4dfb-bba5-1293e8da90fa" />
+The system analyzes:
 
-## Project Structure
-<img width="844" height="315" alt="image" src="https://github.com/user-attachments/assets/53fa9f51-557b-4c88-b1d6-4c4701c7cd2e" />
+* Training workload
+* Fatigue level
+* Sleep hours
+* Fitness score
+* Injury history
 
-## Installation
-<img width="401" height="57" alt="image" src="https://github.com/user-attachments/assets/3ff696fb-e57b-40b4-8f82-de386be2d32b" />
+and provides **real-time injury risk prediction** with:
 
-## Run the Application
-<img width="312" height="61" alt="image" src="https://github.com/user-attachments/assets/e85c6382-8ef9-497a-a602-e4f2b0e38970" />
+* Confidence score
+* Probability distribution chart
+* Personalized injury prevention recommendations
 
-## Technologies Used
-<img width="295" height="200" alt="image" src="https://github.com/user-attachments/assets/0432096f-a220-4c73-b0a3-94621a614be3" />
+---
+
+# 🚀 Key Features
+
+* Real-time injury prediction using **Random Forest ML model**
+* Interactive **Streamlit-based dashboard**
+* Probability distribution chart for **Low / Medium / High risk levels**
+* Personalized **injury prevention recommendations**
+* Feature engineering using **workload ratio & recovery efficiency**
+* Prediction **confidence score with probability breakdown**
+
+---
+
+# 📂 Project Structure
+
+```bash
+cricket-injury-prediction/
+
+├── app.py                     # Streamlit web application
+├── prediction.ipynb           # Model training & experimentation
+├── cricket_player_data_fixed.csv   # Training dataset
+├── injury_risk_model.pkl      # Trained ML model (Random Forest)
+├── model_feature_info.pkl     # Feature names & class labels
+├── requirements.txt           # Project dependencies
+└── README.md                  # Project documentation
+```
+
+---
+
+# ⚙️ Installation
+
+Install required dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+# ▶️ Run the Application
+
+```bash
+streamlit run app.py
+```
+
+After running, open the **local Streamlit server** in your browser.
+
+---
+
+# 🛠️ Technologies Used
+
+* Python
+* Streamlit
+* Scikit-learn
+* Pandas
+* NumPy
+* Joblib
+
+---
+
+# 📊 Machine Learning Model
+
+The system uses a **Random Forest Classifier** trained on cricket player workload and fitness data to classify injury risk into:
+
+* **Low Risk**
+* **Medium Risk**
+* **High Risk**
+
+The model also outputs **probability scores** for each risk category.
+
+---
+
+# 📌 Future Improvements
+
+* Add real cricket player dataset
+* Integrate wearable sensor data
+* Deploy the application online
+* Improve dashboard visualization
+
+---
+
+# 👨‍💻 Author
+
+Developed by **Vignesh Salian**
